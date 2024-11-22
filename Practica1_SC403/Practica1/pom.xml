@@ -8,10 +8,10 @@
         <version>3.2.10</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.tienda</groupId>
-    <artifactId>Tienda</artifactId>
+    <groupId>com.Practica1</groupId>
+    <artifactId>Practica1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Tienda</name>
+    <name>Practica1</name>
     <description>Proyecto Curso Web</description>
     <url/>
     <licenses>
@@ -97,26 +97,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.google.firebase</groupId>
-            <artifactId>firebase-admin</artifactId>
-            <version>9.2.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.thymeleaf.extras</groupId>
-            <artifactId>thymeleaf-extras-springsecurity6</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
     </dependencies>

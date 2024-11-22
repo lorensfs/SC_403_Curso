@@ -1,6 +1,8 @@
 package com.tienda.domain;
 
 import jakarta.persistence.*;
+
+import java.io.Serial;
 import java.io.Serializable;
 import lombok.Data;
 
@@ -9,6 +11,7 @@ import lombok.Data;
 @Table(name="categoria")
 public class Categoria implements Serializable {
 
+    @Serial
     private static final long serialVersionUID = 1L;
 
     @Id
