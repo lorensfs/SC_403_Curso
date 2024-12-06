@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 @Data
 @Entity
-@Table(name="categoria")
+@Table(name="rol")
 public class Rol implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
@@ -20,7 +20,4 @@ public class Rol implements Serializable {
     private String nombre;
     @Column(name="id_usuario")
     private Long idUsuario;
-
-
-
 }
